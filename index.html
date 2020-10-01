@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">
+                    Hair
+                    <span>beard</span>
+                </a>
+                <div class="main__box">
+                    <div class="main__box-block">
+                        <div class="main-wrap">
+                            <div class="burger-text">
+                                Меню
+                            </div>
+                            <div class="burger-main">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="main">
+                        <ul class="main-list">
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#about">о нас </a></li>
+                            <li><a href="#prices">цены и услуги</a></li>
+                            <li><a href="#works">Наши барберы</a></li>
+                            <li><a href="#contact">контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="slider">
+        <div class="slider__box">
+            <div class="container">
+                <div class="slider__content-wrap">
+                    <div class="slider__content">
+                        <div class="slider__content-inner">
+                            <div class="slider__content-title">
+                                Barber<span class="text-shop">shop</span>
+                                <span class="extra__title-text"> <span>с</span> мужским характером</span>
+                            </div>
+                            <div class="slider__push-wrap  btn-wrap">
+                                <button class="slider__push btn-push">
+                                    Записться онлайн
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="slider__social-links">
+            <div class="container">
+                <ul class="social-links">
+                    <li><a class="btn-link icon-instagram" href="#"></a></li>
+                    <li><a class="btn-link icon-facebook" href="#"></a></li>
+                </ul>
+            </div>
+        </div> -->
+
+
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slider-box__item" style="background-image: url(images/slider.jpg);"></div>
+                <div class="swiper-slide slider-box__item" style="background-image: url(images/img-preview2.jpg);">
+                </div>
+            </div>
+
+            <div class="btn-swap">
+                <div class="container">
+                    <div class="parent__block">
+                        <!-- <div class="btn-swap__box">
+                            <div class="swiper-button-prev">01</div>
+                            <div class="swiper-button-next">02</div>
+                        </div> -->
+                        <div class="swiper-pagination"></div>
+                        <ul class="social-links">
+                            <li><a class="btn-link icon-instagram" href="#"></a></li>
+                            <li><a class="btn-link icon-facebook" href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about__us">
+        <div class="container">
+            <div class="about__us-title title">
+                о нас
+            </div>
+            <div class="about__us-inner">
+                <div class="about__us-images" style="background-image: url(images/img-preview1.jpg);"></div>
+                <div class="about__us-content">
+                    <div class="about__us-content-title">
+                        Добро пожаловать
+                    </div>
+                    <div class="about__us-text">
+                        <p>
+                            Мы активно развивающиеся команда , которая начала предоставлять свои услуги по стрижке и
+                            причёскам для мужчин.
+                        </p>
+                        <p>
+                            Наши мастера добились доверия многих клиентов , которые снова и снова возвращаются к нам и
+                            рекомендуют нас своим друзьям и знакомым
+                        </p>
+                        <p>
+                            Мы очень рады каждому клиенту и знаем толк в своей работе на все 200%.Наши мастера имеют
+                            большой
+                            опыт работы
+                            Приходите к нам и мы удивим вас
+                        </p>
+                    </div>
+                    <div class="about__us-info">
+                        <div class="about__us-info-item about__us-info-item_one">
+                            <div class="about__us-info-title">
+                                03
+                            </div>
+                            <div class="about__us-info-text">
+                                Лет на рынке
+                            </div>
+                        </div>
+                        <div class="about__us-info-item">
+                            <div class="about__us-info-title">
+                                12
+                            </div>
+                            <div class="about__us-info-text">
+                                Мастеров своей работы
+                            </div>
+                        </div>
+                        <div class="about__us-info-item">
+                            <div class="about__us-info-title">
+                                6000+
+                            </div>
+                            <div class="about__us-info-text">
+                                Довольных клиентов
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="prices" class="prices">
+        <div class="container">
+            <div class="prices-title title">
+                цены и услуги
+            </div>
+            <div class="prices__inner">
+                <div class="prices__inner-item">
+                    <div class="prices__item-title">Бритье</div>
+                    <div class="prices__images" style="background-image: url(images/img-preview3.jpg);"></div>
+                    <div class="prices__content">
+                        <ul class="prices__list">
+                            <li>
+                                <span class="prices__link-name" href="#">Моделирование бароды</span>
+                                <span class="decor-prices"></span>
+                                <span class="prices__link-price">3000 тг</span>
+                            </li>
+                            <li>
+                                <span class="prices__link-name" href="#">Стрижка бороды и усов</span>
+                                <span class="decor-prices"></span>
+                                <span class="prices__link-price">3000 тг</span>
+                            </li>
+                            <li>
+                                <span class="prices__link-name" href="#">Опасной бритвой</span>
+                                <span class="decor-prices"></span>
+                                <span class="prices__link-price">3000 тг</span>
+                            </li>
+                            <li>
+                                <span class="prices__link-name" href="#">Тонирование бороды</span>
+                                <span class="decor-prices"></span>
+                                <span class="prices__link-price">3000 тг</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="prices__inner-item prices__inner-item_border">
+                    <div class="prices__item-title">Стрижка</div>
+                    <div class="prices__images" style="background-image: url(images/img-preview.jpg);"></div>
+                    <div class="prices__content">
+                        <ul class="prices__list">
+                            <li>
+                                <span class="prices__link-name" href="#">Стрижка Happy house </span>
+                                <span class="decor-prices"></span>
+                                <span class="prices__link-price">3000 тг</span>
+                            </li>
+                            <li>
+                                <span class="prices__link-name" href="#">Стрижка с ножницами</span>
+                                <span class="decor-prices"></span>
+                                <span class="prices__link-price">3000 тг</span>
+                            </li>
+                            <li>
+                                <span class="prices__link-name" href="#">Камуфляж седины</span>
+                                <span class="decor-prices"></span>
+                                <span class="prices__link-price">3000 тг</span>
+                            </li>
+                            <li>
+                                <span class="prices__link-name" href="#">Тонирование головы</span>
+                                <span class="decor-prices"></span>
+                                <span class="prices__link-price">3000 тг</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="works" class="works">
+        <div class="container works__container">
+            <div class="works__title title">
+                Наши барберы
+            </div>
+
+            <div class="works__box">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide work__slide-wrap">
+                        <div class="work__slide-item">
+                            <div class="works__slide-images" style="background-image: url(images/item1.jpg);"></div>
+                            <div class="works__slide-name">
+                                Александр
+                            </div>
+                            <p>
+                                Мастер на все руки.От ответственно подходит к своей работе
+                            </p>
+                        </div>
+                        <div class="work__slide-item">
+                            <div class="works__slide-images" style="background-image: url(images/item2.jpg);"></div>
+                            <div class="works__slide-name">
+                                Денис
+                            </div>
+                            <p>
+                                Мастер на все руки.От ответственно подходит к своей работе
+                            </p>
+                        </div>
+                        <div class="work__slide-item">
+                            <div class="works__slide-images" style="background-image: url(images/item3.jpg);"></div>
+                            <div class="works__slide-name">
+                                Дмитрий
+                            </div>
+                            <p>
+                                Мастер на все руки.От ответственно подходит к своей работе
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide work__slide-wrap">
+
+
+                        <div class="work__slide-item">
+                            <div class="works__slide-images" style="background-image: url(images/item3.jpg);"></div>
+                            <div class="works__slide-name">
+                                Дмитрий
+                            </div>
+                            <p>
+                                Мастер на все руки.От ответственно подходит к своей работе
+                            </p>
+                        </div>
+
+                        <div class="work__slide-item">
+                            <div class="works__slide-images" style="background-image: url(images/item2.jpg);"></div>
+                            <div class="works__slide-name">
+                                Денис
+                            </div>
+                            <p>
+                                Мастер на все руки.От ответственно подходит к своей работе
+                            </p>
+                        </div>
+
+                        <div class="work__slide-item">
+                            <div class="works__slide-images" style="background-image: url(images/item1.jpg);"></div>
+                            <div class="works__slide-name">
+                                Александр
+                            </div>
+                            <p>
+                                Мастер на все руки.От ответственно подходит к своей работе
+                            </p>
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-slide work__slide-wrap">
+
+                        <div class="work__slide-item">
+                            <div class="works__slide-images" style="background-image: url(images/item2.jpg);"></div>
+                            <div class="works__slide-name">
+                                Денис
+                            </div>
+                            <p>
+                                Мастер на все руки.От ответственно подходит к своей работе
+                            </p>
+                        </div>
+
+                        <div class="work__slide-item">
+                            <div class="works__slide-images" style="background-image: url(images/item1.jpg);"></div>
+                            <div class="works__slide-name">
+                                Александр
+                            </div>
+                            <p>
+                                Мастер на все руки.От ответственно подходит к своей работе
+                            </p>
+                        </div>
+
+                        <div class="work__slide-item">
+                            <div class="works__slide-images" style="background-image: url(images/item3.jpg);"></div>
+                            <div class="works__slide-name">
+                                Дмитрий
+                            </div>
+                            <p>
+                                Мастер на все руки.От ответственно подходит к своей работе
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide work__slide-wrap">
+
+                        <div class="work__slide-item">
+                            <div class="works__slide-images" style="background-image: url(images/item1.jpg);"></div>
+                            <div class="works__slide-name">
+                                Александр
+                            </div>
+                            <p>
+                                Мастер на все руки.От ответственно подходит к своей работе
+                            </p>
+                        </div>
+
+                        <div class="work__slide-item">
+                            <div class="works__slide-images" style="background-image: url(images/item2.jpg);"></div>
+                            <div class="works__slide-name">
+                                Денис
+                            </div>
+                            <p>
+                                Мастер на все руки.От ответственно подходит к своей работе
+                            </p>
+                        </div>
+
+                        <div class="work__slide-item">
+                            <div class="works__slide-images" style="background-image: url(images/item3.jpg);"></div>
+                            <div class="works__slide-name">
+                                Дмитрий
+                            </div>
+                            <p>
+                                Мастер на все руки.От ответственно подходит к своей работе
+                            </p>
+                        </div>
+
+
+
+                    </div>
+                    <div class="swiper-slide work__slide-wrap">
+                        <div class="work__slide-item">
+                            <div class="works__slide-images" style="background-image: url(images/item3.jpg);"></div>
+                            <div class="works__slide-name">
+                                Дмитрий
+                            </div>
+                            <p>
+                                Мастер на все руки.От ответственно подходит к своей работе
+                            </p>
+                        </div>
+                        <div class="work__slide-item">
+                            <div class="works__slide-images" style="background-image: url(images/item1.jpg);"></div>
+                            <div class="works__slide-name">
+                                Александр
+                            </div>
+                            <p>
+                                Мастер на все руки.От ответственно подходит к своей работе
+                            </p>
+                        </div>
+                        <div class="work__slide-item">
+                            <div class="works__slide-images" style="background-image: url(images/item2.jpg);"></div>
+                            <div class="works__slide-name">
+                                Денис
+                            </div>
+                            <p>
+                                Мастер на все руки.От ответственно подходит к своей работе
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="works__box-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact__title title">
+                контакты
+            </div>
+            <div class="contact__inner-top">
+                <div class="contact__box">
+                    <div class="contact__box-title">
+                        Онлайн запись
+                    </div>
+
+                    <!-- <form action="mail.php" enctype="multipart/form-data" class="form" method="POST">
+                        <input type="hidden" name="admin_email[]" value="barinov_9927@mail.ru">
+                        <input type="hidden" name="form_subject" value="Барбер">
+
+                        <input type="text" name="name" placeholder="Ваше имя">
+                        <input type="tel" data-validate-field="tel" name="tel" placeholder="Ваш телефон">
+
+                        <button class="contact-btn btn-push" type="submit">
+                            Записться на стрижку
+                        </button>
+                    </form> -->
+
+                    <form action="mail.php" enctype="multipart/form-data" class="form" method="POST">
+                        <input type="hidden" name="admin_email[]" value="barinov_9927@mail.ru">
+                        <input type="hidden" name="form_subject" value="Тема письма">
+
+                        <label class="form-label">
+
+                            <input type="text" name="name" placeholder="Ваше имя">
+                        </label>
+                        <label class="form-label">
+
+                            <input type="tel" data-validate-field="tel" name="tel" placeholder="Ваш телефон">
+                        </label>
+
+
+                        <button type="submit" class="contact-btn btn-push">Записться на стрижку</button>
+                    </form>
+                </div>
+                <div class="contact__map"></div>
+            </div>
+            <div class="contact__inner-bottom">
+                <div class="contact__item">
+                    <div class="contact__item-title">
+                        Адресс
+                    </div>
+                    <p>
+                        ул.Абая дом 58
+                    </p>
+                </div>
+                <div class="contact__item">
+                    <div class="contact__item-title">
+                        E-MAIL
+                    </div>
+                    <p>
+                        hairbeard@gmail.com
+                    </p>
+                </div>
+                <div class="contact__item">
+                    <div class="contact__item-title">
+                        Соц сети
+                    </div>
+                    <div class="contact__item-wrap">
+                        <ul class="social-links">
+                            <li><a class="btn-link icon-instagram" href="#"></a></li>
+                            <li><a class="btn-link icon-facebook" href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="logo">
+                    Hair
+                    <span>beard</span>
+                </div>
+                <div class="footer-main">
+                    <ul class="main-list">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#about">О нас </a></li>
+                        <li><a href="#prices">Цены и услуги</a></li>
+                        <li><a href="#works">Наши барберы</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                <a class="block-tel" href="tel: 77070011001">+7 (707) 001 10 01</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <div class="modal__inner">
+            <div class="modal__close">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="modal__inner-box">
+                <div class="modal__inner-title">
+                    Спасибо
+                </div>
+                <div class="modal__inner-text">
+                    Мы свяжемся с вами в течение 2 минут
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/inputmask.min.js"></script>
+    <script src="js/just-validate.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #161616;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    // font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+}
+
+body.lock {
+    overflow: hidden;
+}
+
+
+
+// body.lock{
+//     overflow-y: hidden;
+// }
+
+h1,
+h2,
+h3,
+p,
+blockquote,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+@mixin bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    padding: 0 10px;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.btn-push {
+    padding: 18px 40px 17px;
+    max-width: 270px;
+    width: 100%;
+    border: 1px solid #cfb080;
+    background-color: transparent;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: #cfb080;
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+    &:hover{
+        background-color: #d28103;
+        color: #ffffff;
+    }
+}
+
+.title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+}
